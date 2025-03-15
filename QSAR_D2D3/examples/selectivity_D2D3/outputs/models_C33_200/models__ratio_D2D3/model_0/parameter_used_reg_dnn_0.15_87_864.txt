@@ -1,0 +1,1 @@
+reg_dnn_0.15_87_864 n_iter 324 n_jobs 4 cv 10 descs (1384, 1777)                         Parameters: {'epochs': [160, 640, 1280], 'hidden_layers': [1, 2], 'neurons': [6144, 7168, 8192], 'learning_rate': [1.0, 1e-05, 1.0], 'batch_size': [256, 512, 1024], 'dropout': [0.0, 0.1]}

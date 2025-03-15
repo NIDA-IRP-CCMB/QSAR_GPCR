@@ -1,0 +1,15 @@
+#!/bin/bash
+#SWARM --job-name=do_params
+#SWARM --partition=gpu
+#SWARM --time=10-00:00:00
+#SWARM --gres=gpu:a100:1
+
+~/Shilab/deep/anaconda3-2020.02-py3.7.6/bin/python ../scripts/parameter_modelfit.py 152
+~/Shilab/deep/anaconda3-2020.02-py3.7.6/bin/python ../scripts/parameter_modelfit.py 169
+~/Shilab/deep/anaconda3-2020.02-py3.7.6/bin/python ../scripts/parameter_modelfit.py 180
+~/Shilab/deep/anaconda3-2020.02-py3.7.6/bin/python ../scripts/parameter_modelfit.py 182
+~/Shilab/deep/anaconda3-2020.02-py3.7.6/bin/python ../scripts/parameter_modelfit.py 192
+~/Shilab/deep/anaconda3-2020.02-py3.7.6/bin/python ../scripts/parameter_modelfit.py 197
+~/Shilab/deep/anaconda3-2020.02-py3.7.6/bin/python ../scripts/parameter_modelfit.py 346
+~/Shilab/deep/anaconda3-2020.02-py3.7.6/bin/python ../scripts/parameter_modelfit.py 418
+~/Shilab/deep/anaconda3-2020.02-py3.7.6/bin/python ../scripts/parameter_modelfit.py 495

@@ -1,0 +1,1 @@
+reg_dnn_0.15_87_864 3 of 324  BestScore -0.5316703861067776 TotalHours 6.689661534494828 BestParameters {'neurons': 8192, 'learning_rate': 1e-05, 'hidden_layers': 1, 'epochs': 160, 'dropout': 0.1, 'batch_size': 1024}

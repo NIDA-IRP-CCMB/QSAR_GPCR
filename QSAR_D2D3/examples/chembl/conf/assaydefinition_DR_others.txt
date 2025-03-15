@@ -1,0 +1,8 @@
+"others"	"inhibition"
+"others"	"inhibitory"
+"others"	"Inhibition"
+"others"	"Inhibitory"
+"others"	"Partial agonist"
+"others"	"partial agonist"
+"D1 antagonist"	"[3H]SCH23390"
+

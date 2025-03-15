@@ -1,0 +1,12 @@
+"agonist"	"agonist"
+"agonist"	"Pramipexole"
+"agonist"	"7-OH-PIPAT"
+"agonist"	"7-OH-DPAT"
+"agonist"	"R-(+)-7-OHDPAT"
+"agonist"	"PD 128907"
+"agonist"	"PD128907"
+"agonist"	"U-86170"
+"agonist"	"quinpirole"
+"agonist"	"PIPAT"
+"agonist"	"NPA"
+

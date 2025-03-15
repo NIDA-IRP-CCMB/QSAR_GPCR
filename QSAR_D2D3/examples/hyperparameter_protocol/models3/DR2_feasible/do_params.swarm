@@ -1,0 +1,6 @@
+#!/bin/bash
+#SWARM --job-name=do_params
+#SWARM --partition=gpu
+#SWARM --time=1-00:00:00
+#SWARM --gres=gpu:a100:1
+

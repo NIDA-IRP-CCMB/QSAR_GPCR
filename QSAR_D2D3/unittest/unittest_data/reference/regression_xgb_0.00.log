@@ -1,0 +1,4 @@
+Sig_bits: True
+significant_bits: 0
+fp_descriptors: (40, 0)
+Best parameters score: {'colsample_bytree': 0.2, 'learning_rate': 0.1, 'max_depth': 2, 'subsample': 0.7} 0.6940173290757177

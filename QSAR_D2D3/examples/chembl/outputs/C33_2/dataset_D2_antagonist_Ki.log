@@ -1,0 +1,19 @@
+Number of compounds at starting:  29977
+Number of compounds after confidence score filter:  18374
+Number of compounds after assay type filter:  13702
+Number of compounds after Ki / IC50 filter:  9169
+Number of compounds after standard units filter:  9110
+Number of compounds after activity relationship type fixes:  8264
+Number of compounds after Displacement Assay filter: 6509
+Number of compounds after removing testset 2 compounds:  n/a
+Number of compounds after patent & hand selecting (paper) filter:  6395
+Number of compounds after data set size filter:  6234
+Number of compounds after desalting pass:  6229
+Number of compounds after oddball element filter:  6219
+Number of compounds after molecular weight filter:  6066
+Number of compounds after pChEMBL value filter:  6066
+Number of compounds after edge case filter:  6066
+Number of compounds after deduplication pass:  4314
+Total number of molecules in training set:  3615
+Number of active molecules:  3502
+Number of inactive molecules:  113
