@@ -30,9 +30,9 @@ The process is separated into four phases:
 
 <a name="data_prep"></a>
 ### 1) Data Preparation
-The data is retrieved from the ChEMBL database. We isolated the dataset to "antagonist-mode", determining the compound's binding affinity for the receptors in an antagonist-mode. Note that within the antagonist-mode dataset, there may be agonist compounds found as well. Furthermore, we included many additional filters to enhance the quality of the dataset to improve the performance of the models, which is further noted in datasets/README.md.
+The data is retrieved from the ChEMBL database. We isolated the dataset to "antagonist-mode", determining the compound's binding affinity for the receptors in an antagonist-mode. Note that within the antagonist-mode dataset, there may be agonist compounds found as well. Furthermore, we included many additional filters to enhance the quality of the dataset to improve the performance of the models, which is further noted in examples/chembl/README.md.
 
-The scripts to create regression and classification datasets that includes selectivity dataset for both can be found in notebooks/main/get_selectivity_datasets.ipynb and notebooks/main/get_classification_dataset.ipynb.
+The scripts to create regression and classification datasets that includes selectivity dataset for both can be found in examples/main/get_selectivity_datasets.ipynb and examples/main/get_classification_dataset.ipynb.
 
 <a name="model_build"></a>
 ### 2) Model Building
@@ -40,10 +40,10 @@ The machine learning algorithms we used include XGBoost (XGB), RandomForest (RF)
 
 #### Running XGBoost and RF 
 
-The scripts to run XGBoost and RF  models can be found in examples/main/prep_XGB_RF_biowulf.ipynb.ipynb. This notebook generates the hierarchy of folders and scripts to run the XGBoost and RF models.
+The scripts to run XGBoost and RF  models can be found in examples/main/prep_XGB_RF_biowulf.ipynb. This notebook generates the hierarchy of folders and scripts to run the XGBoost and RF models.
 
 #### Running DNN
-Deep Learning algorithm was applied in our NIH Biowulf cluster. The code can be found in core/deeplearning.py and core/run_deeplearning.py. The protocol for hyperparameter tuning can be found in models/parameter_analysis, with the corresponding analysis in notebooks/parameter_analysis.
+Deep Learning algorithm was applied in our NIH Biowulf cluster. The code can be found in core/deeplearning.py and core/run_deeplearning.py. The protocol for hyperparameter tuning can be found in core/parameter_analysis, with the corresponding analysis in examples/hyperparameter_protocol.
 
 The scripts to run DNN models can be found in examples/main/prep_DNN.ipynb. This notebook generates the hierarchy of folders and scripts to run the DNN models.
 
@@ -57,7 +57,7 @@ For analysis, the benchmarks for the regression and classification models of the
 <a name="analysis"></a>
 ### 4) Post-model Analysis
 
-The SHAP analysis is concurrently being ran with the model building script (after model is built), but if it is not done or needs to be reran, please see the notebooks/main/prep_SHAP.ipynb, which would generate the scripts to run the SHAP analysis for the models. 
+The SHAP analysis is concurrently being ran with the model building script (after model is built), but if it is not done or needs to be reran, please see the examples/main/prep_SHAP.ipynb, which would generate the scripts to run the SHAP analysis for the models. 
 
 * SHAP analysis can be found in notebooks/post_model_analysis/shap_features_consensus.ipynb. 
 
@@ -99,7 +99,8 @@ Tensorflow 2.5.0 version is being used
 
 Currently, the unittest was moved to the ai-x repository. This is the unittest for dataset filters.
 
-            python -m unittest -v datasets/scripts/unittest_filters_dop.py -b
+            cd unittest
+            python -m unittest -v unittest_filters_dop.py -b
 
 <a name="structure"></a>
 ## Structure of the repository
