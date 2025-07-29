@@ -1,6 +1,7 @@
 <a name="top"></a>
 # QSAR modeling of Dopamine D2, D3, and D3-selective receptors
 ## Table of Contents
+- [Citation](#citation)
 - [Introduction](#introduction)
 - [Data preparation](#data_prep)
 - [Model building](#model_build)
@@ -11,6 +12,9 @@
 
 - [Contributors](#contributors)
 
+<a name="citation"></a>
+## Citation
+[Decoding the Structure–Activity Relationship of the Dopamine D3 Receptor-Selective Ligands Using Machine and Deep Learning Approaches](https://pubs.acs.org/doi/10.1021/acs.jcim.5c00575)
 
 <a name="introduction"></a>
 ## Introduction
